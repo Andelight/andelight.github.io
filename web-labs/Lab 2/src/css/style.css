@@ -1,0 +1,132 @@
+div p {
+  color: #000;
+}
+
+#test p {
+  color: #000;
+}
+
+#test h2 {
+  color: rgb(123, 62, 180);
+}
+
+#test .bbb {
+  color: red;
+  border: 2px solid green;
+}
+
+p.bbb {
+  color: red;
+}
+
+#test p.bbb {
+  color: rgb(21, 25, 245);
+}
+
+.bbb, .xxx {
+  background-color: rgb(193, 253, 53);
+}
+
+p.bbb, h2.xxx {
+  border: 1px solid black;
+}
+
+#test p.bbb, #test p.xxx {
+  background-color: black;
+}
+
+
+.text>.lorem {
+  color: rgb(84, 84, 247);
+}
+
+.fff .bbb {
+  background-color: rgb(180, 104, 104);
+}
+
+.fff h2.bbb {
+  background-color: rgb(159, 143, 230);
+}
+
+p a, a.test {
+  font-size: 24px;
+}
+
+#test b ~ i {
+  color: blue;
+}
+
+ul + p {
+  color: red;
+}
+
+p[title="Привет"] {
+  color: purple;
+}
+
+/*-------------*/
+
+
+ol>li {
+  width: 120px;
+  padding: 2px;
+  margin-bottom: 2px;
+  border: 1px solid blue;
+  list-style-position: inside;
+}
+
+
+ol li:hover{
+  background-color: red;
+}
+
+ol li:hover+li {
+  background-color: green;
+}
+
+.book {
+  width: 650px;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.book::before {
+  content: 'Начало:';
+  color: red;
+  padding-right: 10px;
+}
+
+.book::after {
+  content: 'Конец!';
+  color: green;
+  padding-left: 10px;
+}
+
+.ul>li:first-child {
+  color: red;
+}
+
+.ul>li:last-child {
+  color: green;
+}
+
+
+.ul2 li:not(:nth-child(2n)) {
+  color: red;
+}
+
+.ul2 li:not(:nth-child(2n+1)) {
+  color: green;
+}
+
+.ul3 li:nth-last-child(2) {
+  color: red;
+}
+
+.testclass>p:not(.test) {
+  color: red;
+}
+
+.ul4 li:not(:nth-child(3)) {
+  color: red;
+}

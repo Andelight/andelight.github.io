@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+/*.title {
+  font-weight: 300;
+}
+
+.bio>h1 {
+  font-weight: 100;
+}*/
+
+.tasks {
+  text-align: center;
+}
+
+select {
+  width: 100px;
+}
+
+.labs {
+  line-height: 25px;
+}
+
+.reports {
+  text-align: center;
+  margin-top: 100px;
+}

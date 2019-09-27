@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Опрос</title>
+
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+  <h1>Документ для опроса</h1>
+
+  <div class="bio">
+    <p><input type="text" placeholder="Введите Ваше ФИО..."></p>
+    <p><input type="number" placeholder="Введите Ваш возраст..."></p>
+    <p><input type="email" placeholder="Введите E-mail..."></p>
+  </div>
+  
+  <h4>Отметьте Ваши интересы:</h4>
+
+  <div class="interest">
+    <p><input type="checkbox" value="Гребля"> Гребля</p>
+    <p><input type="checkbox" value="Баскетбол">Баскетбол</p>
+    <p><input type="checkbox" value="Гимнастика">Гимнастика</p>
+    <p><input type="checkbox" value="Программирование">Программирование</p>
+    <p><input type="checkbox" value="OS">OS</p>
+  </div>
+
+  <h4>Основная сфера деятельности</h4>
+  <div class="selectors">
+    <p><input type="radio" name="select">Рабочий</p>
+    <p><input type="radio" name="select">Студент</p>
+    <p><input type="radio" name="select">Предприниматель</p> 
+    <p><input type="radio" name="select">Спортсмен</p> 
+  </div>
+
+  <h4>Оцените работу сайта</h4>
+  <select name="work" id="0">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="hard">Затрудняюсь ответить</option>
+  </select>
+
+  <h4>Заполните форму</h4>
+
+  <form action="">
+    <textarea name="comment" id="1" cols="60" rows="10" placeholder="Ваш комментарий..."></textarea>
+
+    <div class="btn">
+      <input type="submit">
+      <input type="reset">
+    </div>
+  </form>
+  
+</body>
+</html>
