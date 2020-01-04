@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+  <title>Web-project</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid">
+      <nav class="navigation">
+        <ul class="list">
+          <div class="row align-items-center">
+
+            <div class="col-6 col-md-4 col-lg-4">
+              <a href="#show_btn"><li>clock</li></a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-4">
+              <a href="#pics_box"><li>slides</li></a>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4">
+              <a href="#gif"><li>network</li></a>
+            </div>
+            
+          </div> 
+        </ul>
+      </nav>
+
+
+      <button id="sound__btn">&#x266B;</button>
+
+
+      <div class="row align-items-center">
+        <h1 class="header__title">Project</h1>
+      </div>
+
+      <div class="header__descr">
+        <p>Данная страница создана для...<br></p>
+      </div>
+    </div>
+  </header>
+
+ 
+  <main>
+    <div class="contaier-fluid">
+      <section class="clock_box" id="clock__" style="display:none">
+        <h1 id="clock">00:00:00</h1>
+        <h3 id="color">#000000</h3>
+
+        <button id="close_clock_button">&#9773;</button>
+      </section>
+
+      <div class="show" id="show_btn">
+        <button class="show_clock_button">Показать часики   <i class="fa fa-clock-o" aria-hidden="true"></i></button>
+      </div>
+      <hr>
+
+      <section class="pics" id="pics_box">
+          <div class="row align-items-center">
+
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="video__card">
+                <a href="https://en.wikipedia.org/wiki/Looney_Tunes" title="Redirect" target="_blank">
+                  <img src="img/1.png">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="video__card">
+                <a href="https://garfield.com" title="Redirect" target="_blank">
+                  <img src="img/2.png">
+                </a>
+              </div>
+            </div>
+                
+            <div class="col-12 col-md-4 col-lg-4">
+              <div class="video__card">
+                <a href="https://linux.org" title="Redirect" target="_blank">
+                  <img src="img/3.png">
+                </a>
+              </div>
+            </div>
+
+          </div>
+      </section>
+      <hr>
+
+      <div class="gif__block">
+        <a name="gif"></a>
+        <a href="neural.html" target="_blank">
+          <img src="img/test.gif" alt="Neural network">
+        </a>
+        <p><span class="gif__title">Neural network</span></p> 
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="footer__title">
+        2019 &copy; Melotronix
+      </div>
+      <div class="footer__links">
+        <a href="https://instagram.com/andelight_exe/" target="_blank"><img src="img/instagram.png"  alt="Inst" ></a>
+        <a href="https://vk.com/andelight" target="_blank"><img src="img/vk.png" alt="VK" ></a>
+        <a href="https://reddit.com" target="_blank"><img src="img/reddit.png" alt="Reddit" ></a>
+      </div>
+
+    </div>
+
+  </footer>
+    
+  
+  <script src="js/script.js" async></script>
+</body>
+</html>

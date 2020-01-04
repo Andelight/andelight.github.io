@@ -1,0 +1,210 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+header .container-fluid {
+  height: 900px;
+  background: url("../img/bg_img.jpg") center no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px 5px 13px -3px #231F26;
+          box-shadow: 0px 5px 13px -3px #231F26;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.header__title {
+  margin: 0 auto;
+}
+
+.header__descr {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.navigation {
+  padding-top: 30px;
+  height: 85px;
+}
+
+#sound__btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #5f6366;
+  background-color: transparent;
+  border: 3px solid #5f6366;
+  outline: none;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 45px;
+}
+
+#sound__btn:focus {
+  outline: none;
+}
+
+#sound__btn:hover {
+  cursor: pointer;
+  color: #3a3a3bf1;
+  border: 3px solid #3a3a3bf1;
+}
+
+.list {
+  padding: 0;
+}
+
+.list a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.list li {
+  text-align: center;
+  list-style: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border: 3px solid #5c5a5a;
+}
+
+.list li:hover {
+  background-color: #5c5a5a;
+  color: #fff;
+}
+
+/*--------------------------*/
+.show {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.show .show_clock_button {
+  padding: 30px 70px;
+  outline: none;
+  border: 3px solid #5c5a5a;
+  background-color: transparent;
+  font-size: 23px;
+  font-weight: 500;
+  color: #242424ea;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.show .show_clock_button:hover {
+  cursor: pointer;
+  background-color: #5c5a5a;
+  color: #fff;
+}
+
+#close_clock_button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin: 0 auto;
+  font-size: 65px;
+  color: #fff;
+  background-color: transparent;
+}
+
+#close_clock_button:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+#close_clock_button:focus {
+  outline: none;
+}
+
+#clock, #color {
+  text-align: center;
+  padding-top: 60px;
+  color: #fff;
+}
+
+main .clock_box {
+  height: 500px;
+  text-align: center;
+}
+
+.pics {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.video__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+/*-----------------------*/
+.gif__block {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gif__block a {
+  outline: none;
+  text-decoration: none;
+  color: #242424ea;
+}
+
+.gif__block img {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.gif__block p {
+  padding-top: 10px;
+}
+
+.gif__block p span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.gif__block p span:hover {
+  text-decoration: line-through;
+}
+
+/*-------------*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  padding: 0;
+  background-color: #333333e7;
+  color: #cecccc;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer__title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+.footer__links a {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
