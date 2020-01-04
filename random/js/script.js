@@ -50,6 +50,7 @@ close_btn.addEventListener('click', () => {
   buttonWrapper.style.display = "block"
 })
 
+
 let audio = new Audio();
 audio.src = '../audio/kavinsky.mp3';
 audio.autoplay = false;
